@@ -1,0 +1,60 @@
+{
+  "name": "react-guide-tour",
+  "version": "0.1.0",
+  "description": "A lightweight, customizable React component library for creating interactive product tours and onboarding experiences",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "tour",
+    "onboarding",
+    "guide",
+    "tutorial",
+    "product-tour",
+    "walkthrough",
+    "tooltip",
+    "highlight",
+    "step-by-step",
+    "user-onboarding",
+    "interactive-guide"
+  ],
+  "author": "utilitis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utilitis/react-guide-tour.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utilitis/react-guide-tour/issues"
+  },
+  "homepage": "https://github.com/utilitis/react-guide-tour#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  }
+}
