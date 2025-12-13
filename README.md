@@ -1,4 +1,4 @@
-# React Guide Tour
+# React App Guide
 
 A lightweight, customizable React component library for creating interactive product tours and onboarding experiences.
 
@@ -14,11 +14,11 @@ A lightweight, customizable React component library for creating interactive pro
 ## Installation
 
 ```bash
-npm install react-guide-tour
+npm install react-app-guide
 # or
-yarn add react-guide-tour
+yarn add react-app-guide
 # or
-pnpm add react-guide-tour
+pnpm add react-app-guide
 ```
 
 ## Quick Start
@@ -26,8 +26,8 @@ pnpm add react-guide-tour
 ### Basic Usage
 
 ```tsx
-import { StepTour } from 'react-guide-tour';
-import 'react-guide-tour/styles.css';
+import { StepTour } from 'react-app-guide';
+import 'react-app-guide/styles.css';
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -85,7 +85,7 @@ function App() {
 ### Single Element Highlight
 
 ```tsx
-import { HighlightTour } from 'react-guide-tour';
+import { HighlightTour } from 'react-app-guide';
 
 <HighlightTour
   open={true}
@@ -326,7 +326,7 @@ function App() {
 Fully typed with TypeScript:
 
 ```tsx
-import type { TourStep, TourIntro, StepTourProps } from 'react-guide-tour';
+import type { TourStep, TourIntro, StepTourProps } from 'react-app-guide';
 
 const steps: TourStep[] = [
   {
@@ -365,4 +365,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/utilitis/react-guide-tour/issues).
+If you encounter any issues or have questions, please [open an issue](https://github.com/utilitis/react-app-guide/issues).

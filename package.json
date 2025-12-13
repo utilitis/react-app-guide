@@ -1,5 +1,5 @@
 {
-  "name": "react-guide-tour",
+  "name": "react-app-guide",
   "version": "0.1.0",
   "description": "A lightweight, customizable React component library for creating interactive product tours and onboarding experiences",
   "main": "./dist/index.js",
@@ -41,12 +41,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/utilitis/react-guide-tour.git"
+    "url": "https://github.com/utilitis/react-app-guide.git"
   },
   "bugs": {
-    "url": "https://github.com/utilitis/react-guide-tour/issues"
+    "url": "https://github.com/utilitis/react-app-guide/issues"
   },
-  "homepage": "https://github.com/utilitis/react-guide-tour#readme",
+  "homepage": "https://github.com/utilitis/react-app-guide#readme",
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
