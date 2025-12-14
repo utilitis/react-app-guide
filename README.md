@@ -2,6 +2,10 @@
 
 A lightweight, customizable React component library for creating interactive product tours and onboarding experiences.
 
+## Live Demo
+
+See the components in action: https://v0-react-component-nine-rho.vercel.app/
+
 ## Features
 
 - 🎯 **Two Component Types**: `StepTour` for multi-step tours, `HighlightTour` for single element highlights
