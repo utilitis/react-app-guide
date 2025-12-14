@@ -4,7 +4,7 @@ A lightweight, customizable React component library for creating interactive pro
 
 ## Live Demo
 
-See the components in action: https://v0-react-component-nine-rho.vercel.app/
+See the components in action: <a href="https://v0-react-component-nine-rho.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
 
 ## Features
 
