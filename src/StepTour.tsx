@@ -4,7 +4,6 @@ import type { ReactNode } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { HighlightTour } from "./HighlightTour";
-import "./styles.css";
 
 export type TourStep = {
   id: string;
@@ -280,7 +279,6 @@ export const StepTour = ({ open, steps, onClose, intro, outro, renderActions, cl
       nextLabel={current.nextLabel ?? "Next"}
       backLabel={current.backLabel ?? "Back"}
       closeLabel={current.closeLabel ?? "Close"}
-      badgeLabel=""
       onNext={handleNext}
       onPrev={index > 0 ? handlePrev : undefined}
       onClose={handleClose}

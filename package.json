@@ -1,6 +1,6 @@
 {
   "name": "react-app-guide",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight, customizable React component library for creating interactive product tours and onboarding experiences",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

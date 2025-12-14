@@ -137,7 +137,6 @@ type TourStep = {
 | `nextLabel` | `string` | ❌ | `"Next"` | "Next" button label |
 | `backLabel` | `string` | ❌ | `"Back"` | "Back" button label |
 | `closeLabel` | `string` | ❌ | `"Close"` | "Close" button label |
-| `badgeLabel` | `string` | ❌ | `"Guide"` | Badge label text |
 | `onNext` | `() => void` | ❌ | - | Called when "Next" is clicked |
 | `onPrev` | `() => void` | ❌ | - | Called when "Back" is clicked |
 | `onClose` | `() => void` | ✅ | - | Called when closed |

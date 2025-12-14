@@ -3,7 +3,6 @@
 import type { CSSProperties, ReactNode } from "react";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import "./styles.css";
 
 type HighlightClassNames = {
   overlay?: string;
@@ -11,7 +10,6 @@ type HighlightClassNames = {
   highlight?: string;
   tooltip?: string;
   tooltipHeader?: string;
-  badge?: string;
   title?: string;
   description?: string;
   actions?: string;
@@ -30,7 +28,6 @@ type HighlightTourProps = {
   nextLabel?: string;
   backLabel?: string;
   closeLabel?: string;
-  badgeLabel?: string;
   onNext?: () => void;
   onPrev?: () => void;
   onClose: () => void;
@@ -54,7 +51,6 @@ export const HighlightTour = ({
   nextLabel = "Next",
   backLabel = "Back",
   closeLabel = "Close",
-  badgeLabel = "Guide",
   onNext,
   onPrev,
   onClose,
@@ -171,7 +167,6 @@ export const HighlightTour = ({
   const highlightCls = classNames?.highlight ?? "highlight-tour-highlight";
   const tooltipCls = classNames?.tooltip ?? "highlight-tour-tooltip";
   const tooltipHeaderCls = classNames?.tooltipHeader ?? "highlight-tour-tooltip-header";
-  const badgeCls = classNames?.badge ?? "highlight-tour-badge";
   const titleCls = classNames?.title ?? "highlight-tour-title";
   const descriptionCls = classNames?.description ?? "highlight-tour-description";
   const actionsCls = classNames?.actions ?? "highlight-tour-actions";
